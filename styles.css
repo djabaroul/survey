@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color:#E6E6FA;
+    color : #000000;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    
+    letter-spacing: 0.1rem;
+}
+
+#main h1 {
+  padding: 40px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 40px;
+  justify-content: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin: 70px;
+  left: 2;
+  right: 4;
+}
+
+
+#ti1{
+  padding: 40px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  justify-content: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin: 70px;
+
+  left: 2;
+ right: 4;
+}
+#surnom{
+  padding: 70px;
+  text-align: center;
+  color: rgb(15, 15, 15);
+  font-size: 20px;
+  justify-content: center;
+  margin: 70px;
+  top:30px;
+  left: 2;
+ right: 4;
+
+}
+    
+  
+  
+  .container{
+    width:100%;
+    height:auto;
+    position:relative;
+    overflow:hidden;
+    
+    
+  }
+  #image{
+    /*max-width: 1000px;
+    max-height: 100%;*/
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+    
+  }
+  
+  .container img-div{
+    display: block;
+    max-width: 900px;
+    max-height: 75%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+  }
+
+  #tribute-info {
+    width: auto;
+    max-width: 1000px;
+    padding: 20px 30px;
+    display: inline-flex;
+    word-spacing: 0.2rem;
+    text-align: justify;
+    margin: 0 auto 6px 55px;
+    top:100px;
+    z-index: 9999;
+    
+  }
+  #lien {
+    position:relative;
+    padding-left: 11px;
+    width: auto;
+    max-width: 1000px;
+    padding: 3px 3px;
+    margin: 0 auto 6px 55px;
+    display: inline-flex;
+    
+
+  }
+  #tribute-info li {
+    position:relative;
+    padding-left: 11px;
+
+  }
+   
+  ul{
+      
+      list-style: none;
+      margin-left: 0;
+      padding-left: 1em;
+      text-indent: -1em;
+     
+      margin: 2em;
+      
+      padding: 5px;
+  }
+
+  li {
+    list-style-type: none;
+	  counter-increment: repas; /* on incrémente le compteur à chaque nouveau li */
+	  margin-bottom: 10px;
+    white-space:inherit;
+}
+li:before {
+	content: counter(repas); /* on affiche le compteur */
+	padding: 0 20px 6px;
+	margin-right: 8px;
+	vertical-align: top;
+	background: #678;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: white;		
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
